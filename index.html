@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Jane Chen's Todo List." />
+    <meta name="author" content="Jane Chen" />
+
+    <!-- google font setting -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font icon setting -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Todo List</h1>
+    </header>
+
+    <form>
+      <input type="text" placeholder="Add New Todo Here..." />
+      <input type="number" min="1" max="12" placeholder="M" />
+      <input type="number" min="1" max="31" placeholder="D" />
+      <span class="addBtn material-symbols-outlined"> add_circle </span>
+    </form>
+
+    <div class="sort">
+      <button>Sort By Time</button>
+    </div>
+
+    <section></section>
+  </body>
+  <script src="./js/app.js"></script>
+</html>
